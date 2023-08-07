@@ -15,3 +15,4 @@ You need to modify the `mly_token.py` file with your token. To get one:
 # Current results
 
 ## Show Semantic Segmentation map
+![! Mapillary semantic map](https://github.com/ibaiGorordo/test-mapillary-python/blob/main/doc/img/combined_img.png)
