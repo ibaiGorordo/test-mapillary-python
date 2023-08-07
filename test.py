@@ -62,7 +62,7 @@ def process_img(img_id):
     for feature in detection_data['features']:
         detection_properties = feature['properties']
         label = detection_properties['value']
-        if 'unlabeled' in label:
+        if label not in label_colors:
             continue
         coordinates = geometry_to_coordinates(detection_properties['pixel_geometry'])
         detection = Detection(coordinates, label)
@@ -78,7 +78,7 @@ if __name__ == '__main__':
 
     mly.set_access_token(MLY_ACCESS_TOKEN)
 
-    img_id = "673668484158125"
+    img_id = "530868028403807"
     img, detections = process_img(img_id)
     detection_img = draw_detections(img, detections)
 
