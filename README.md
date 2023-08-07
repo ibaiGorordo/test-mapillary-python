@@ -3,7 +3,7 @@
 
 # Installation
 ```bash
-pip install git+https://github.com/ibaiGorordo/mapillary-python-sdk.git
+pip install git+https://github.com/ibaiGorordo/mapillary-python-sdk.git@simple_dependencies
 ```
 
 # Setup
