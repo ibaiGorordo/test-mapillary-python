@@ -3,7 +3,7 @@
 
 # Installation
 ```bash
-pip install mapillary
+pip install git+https://github.com/ibaiGorordo/mapillary-python-sdk.git
 ```
 
 # Setup
