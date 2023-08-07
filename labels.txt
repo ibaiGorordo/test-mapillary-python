@@ -117,6 +117,7 @@ object--traffic-light--general-upright-back
 object--traffic-light--general-upright-front
 object--traffic-light--general-upright-side
 object--traffic-light--other
+object--traffic-light--pedestrians
 object--traffic-light--pedestrians-back
 object--traffic-light--pedestrians-front
 object--traffic-light--pedestrians-side
